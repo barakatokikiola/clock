@@ -1,0 +1,19 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "This is a clock made with html, css and javascript",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barakatokikiola/clock.git"
+  },
+  "author": "barakat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barakatokikiola/clock/issues"
+  },
+  "homepage": "https://github.com/barakatokikiola/clock#readme"
+}
