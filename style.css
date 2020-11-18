@@ -1,0 +1,104 @@
+/* Created Using Easy HTML v1.4.5 */
+/* https://play.google.com/store/apps/details?id=ak.andro.easyhtml */
+
+.time 
+{
+  font-size:30px;
+  font-family: georgia;
+  font-weight:bold;
+  margin:10px 10px;
+  text-align:center;
+  justify-content:center;
+  padding:15px 15px ;
+  color:#baba;
+}
+  
+*  {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background: #192a56;
+  align-items:center;
+  display:flex;
+  justify-content:center;
+  min-height:100vh;
+}
+.clock {
+  background:#dad2 url(file:///storage/emulated/0/Download/clock-2.png);
+  background-size:cover;
+  align-items:center;
+  justify-content:center;
+  display:flex;
+  height:300px;
+  width: 300px;
+  box-shadow:0 -15px 15px rgba(255,255,255,0.05),
+    inset 0 -15px 15px rgba(255,255,255,0.05),
+    0 15px 15px rgba(0,0,0, 0.3),
+    inset 0 15px 15px rgba(0,0,0, 0.3);
+  border:4px solid #dad1;
+  border-radius:50%;
+}
+.clock:before{
+  content: '';
+  position:absolute;
+  height:15px;
+  width:15px;
+  z-index:10000;
+  background:#fff;
+  border-radius:50%;
+}
+.clock .hour, 
+.clock .minute,
+.clock .second
+{
+  position:absolute;
+}
+.clock .hour, .hr {
+  height: 150px;
+  width: 150px;
+  ;
+}
+.clock .minute, .min {
+  height: 190px;
+  width: 190px;
+}
+.clock .second, .sec
+{
+  height: 210px;
+  width: 210px;
+}
+.hr, .min, .sec {
+  display:flex;
+  justify-content:center;
+  border-radius: 50%;
+  position:absolute;
+}
+.hr:before{
+  content: '';
+  position:absolute;
+  height:80px;
+  width:8px;
+  background:#baba70;
+  border-radius: 6px 6px 0 0;
+  z-index:10;
+}
+.min:before{
+  content: '';
+  position:absolute;
+  height:90px;
+  width:4px;
+  background:brown;
+  border-radius: 6px 6px 0 0;
+  z-index:11;
+}
+.sec:before{
+  content: '';
+  position:absolute;
+  height:150px;
+  width:2px;
+  background:#fff;
+  z-index:12;
+  border-radius: 6px 6px 0 0;
+}
