@@ -23,7 +23,7 @@ body{
   min-height:100vh;
 }
 .clock {
-  background:#dad2 url(file:///storage/emulated/0/Download/clock-2.png);
+  background:#dad2 url(clock.png);
   background-size:cover;
   align-items:center;
   justify-content:center;
